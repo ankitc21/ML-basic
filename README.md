@@ -1,62 +1,76 @@
-# 🏠 Boston Housing Price Prediction
+# 🤖 Machine Learning Training Repository
 
-A machine learning project to predict house prices in Boston using Linear, Ridge, and Lasso regression. This notebook explores model performance using cross-validation and regularization techniques.
-
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Model](https://img.shields.io/badge/Model-Linear%20Regression-orange)
+Welcome to the repository for hands-on Machine Learning training! This repository contains Jupyter notebooks and resources for **all major supervised and unsupervised learning algorithms**, aimed at helping learners and practitioners master core ML concepts through practical implementation.
 
 ---
 
-## 📂 Project Structure
+## 🎯 Objectives
+
+- Build a complete, organized collection of ML algorithms.
+- Implement both **supervised** and **unsupervised** models from scratch and using `scikit-learn`.
+- Evaluate models using appropriate metrics and visualization tools.
+- Provide a foundation for academic use, interviews, and real-world ML projects.
 
 ---
 
-## 📌 Objectives
+## 📁 Repository Structure (Planned)
 
-- Understand the Boston housing dataset.
-- Apply linear regression for price prediction.
-- Implement Ridge and Lasso regularization to improve model generalization.
-- Use cross-validation and error analysis to evaluate performance.
+---
+machine-learning-training/
+│
+├── supervised/
+│ ├── regression/
+│ │ ├── linear_regression.ipynb
+│ │ ├── ridge_lasso_regression.ipynb
+│ │ └── decision_tree_regression.ipynb
+│ ├── classification/
+│ │ ├── logistic_regression.ipynb
+│ │ ├── knn_classification.ipynb
+│ │ ├── svm.ipynb
+│ │ ├── naive_bayes.ipynb
+│ │ └── random_forest_classification.ipynb
+│ └── ensemble/
+│ ├── gradient_boosting.ipynb
+│ ├── xgboost.ipynb
+│ └── voting_bagging.ipynb
+│
+├── unsupervised/
+│ ├── clustering/
+│ │ ├── kmeans_clustering.ipynb
+│ │ ├── hierarchical_clustering.ipynb
+│ │ └── dbscan.ipynb
+│ ├── dimensionality_reduction/
+│ │ ├── pca.ipynb
+│ │ └── t_sne.ipynb
+│ └── anomaly_detection/
+│ ├── isolation_forest.ipynb
+│ └── one_class_svm.ipynb
+│
+├── data/
+│ └── (datasets used in notebooks)
+├── README.md
+└── requirements.txt
+
+## 📚 Topics Covered
+
+### ✅ Supervised Learning
+- **Regression:** Linear, Ridge, Lasso, Decision Tree, Random Forest
+- **Classification:** Logistic Regression, KNN, SVM, Naive Bayes, Ensemble methods (Bagging, Boosting)
+
+### 🔍 Unsupervised Learning
+- **Clustering:** K-Means, DBSCAN, Agglomerative Clustering
+- **Dimensionality Reduction:** PCA, t-SNE
+- **Anomaly Detection:** Isolation Forest, One-Class SVM
 
 ---
 
-## 🧠 What’s Inside?
+## 🚀 Getting Started
 
-### 1. Data Handling
-- Loaded the dataset using `fetch_openml`.
-- Explored feature names and statistics.
-- Separated independent variables `X` and target `y`.
+### 🔧 Installation
 
-### 2. Preprocessing
-- Performed train-test split (67/33).
-- Standardized data using `StandardScaler`.
-
-### 3. Linear Regression Model
-- Fitted `LinearRegression` from `sklearn`.
-- Evaluated using **cross-validation** with **negative mean squared error (MSE)**.
-- Visualized error distribution with `seaborn`.
-- Calculated **R² Score**.
-
-### 4. Ridge Regression (L2 Regularization)
-- Applied `Ridge()` with `GridSearchCV` to tune the `alpha` parameter.
-- Predicted values and visualized error.
-- Evaluated model using R² score.
-
-### 5. Lasso Regression (L1 Regularization)
-- Implemented `Lasso()` regression.
-- Tuned hyperparameter using `GridSearchCV`.
-- Visualized prediction error distribution.
-
----
-
-## 🛠️ Tech Stack
-
-- Python 3.x
-- Pandas, NumPy
-- scikit-learn
-- Matplotlib, Seaborn
-
-
+```bash
+git clone https://github.com/your-username/machine-learning-training.git
+cd machine-learning-training
+pip install -r requirements.txt
 
 
