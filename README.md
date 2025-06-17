@@ -55,7 +55,7 @@ machine-learning-training/
 │
 ├── README.md
 └── requirements.txt
-
+---
 ## 📚 Topics Covered
 
 ### ✅ Supervised Learning
@@ -69,13 +69,7 @@ machine-learning-training/
 
 ---
 
-## 🚀 Getting Started
 
-### 🔧 Installation
 
-```bash
-git clone https://github.com/your-username/machine-learning-training.git
-cd machine-learning-training
-pip install -r requirements.txt
 
 
