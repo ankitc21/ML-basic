@@ -15,50 +15,19 @@ Welcome to the repository for hands-on Machine Learning training! This repositor
 
 ## 📁 Repository Structure (Planned)
 
----
-🔷 Supervised Learning
-🔹 Regression
-linear_regression.ipynb
+🔹 Supervised Learning
+Regression: linear_regression, ridge_lasso_regression, decision_tree_regression
 
-ridge_lasso_regression.ipynb
+Classification: logistic_regression, knn, svm, naive_bayes, random_forest
 
-decision_tree_regression.ipynb
+Ensemble: gradient_boosting, xgboost, voting_bagging
 
-🔹 Classification
-logistic_regression.ipynb
+🔹 Unsupervised Learning
+Clustering: kmeans, hierarchical, dbscan
 
-knn_classification.ipynb
+Dimensionality Reduction: pca, t_sne
 
-svm.ipynb
-
-naive_bayes.ipynb
-
-random_forest_classification.ipynb
-
-🔹 Ensemble Methods
-gradient_boosting.ipynb
-
-xgboost.ipynb
-
-voting_bagging.ipynb
-
-🔷 Unsupervised Learning
-🔹 Clustering
-kmeans_clustering.ipynb
-
-hierarchical_clustering.ipynb
-
-dbscan.ipynb
-
-🔹 Dimensionality Reduction
-pca.ipynb
-
-t_sne.ipynb
-
-🔹 Anomaly Detection
-isolation_forest.ipynb
-
-one_class_svm.ipynb
+Anomaly Detection: isolation_forest, one_class_svm
 
 ---
 ## 📚 Topics Covered
