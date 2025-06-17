@@ -16,48 +16,50 @@ Welcome to the repository for hands-on Machine Learning training! This repositor
 ## 📁 Repository Structure (Planned)
 
 ---
-machine-learning-training/
-│
-├── supervised/
-│   ├── regression/
-│   │   ├── linear_regression.ipynb
-│   │   ├── ridge_lasso_regression.ipynb
-│   │   └── decision_tree_regression.ipynb
-│   │
+🔷 Supervised Learning
+🔹 Regression
+linear_regression.ipynb
 
-│   ├── classification/
-│   │   ├── logistic_regression.ipynb
-│   │   ├── knn_classification.ipynb
-│   │   ├── svm.ipynb
-│   │   ├── naive_bayes.ipynb
-│   │   └── random_forest_classification.ipynb
-│   │
-│   └── ensemble/
-│       ├── gradient_boosting.ipynb
-│       ├── xgboost.ipynb
-│       └── voting_bagging.ipynb
+ridge_lasso_regression.ipynb
 
-├── unsupervised/
-│   ├── clustering/
-│   │   ├── kmeans_clustering.ipynb
-│   │   ├── hierarchical_clustering.ipynb
-│   │   └── dbscan.ipynb
-│   │
+decision_tree_regression.ipynb
 
-│   ├── dimensionality_reduction/
-│   │   ├── pca.ipynb
-│   │   └── t_sne.ipynb
-│   │
-│   └── anomaly_detection/
-│       ├── isolation_forest.ipynb
-│       └── one_class_svm.ipynb
-│
+🔹 Classification
+logistic_regression.ipynb
 
-├── data/
-│   └── (datasets used in notebooks)
-│
-├── README.md
-└── requirements.txt
+knn_classification.ipynb
+
+svm.ipynb
+
+naive_bayes.ipynb
+
+random_forest_classification.ipynb
+
+🔹 Ensemble Methods
+gradient_boosting.ipynb
+
+xgboost.ipynb
+
+voting_bagging.ipynb
+
+🔷 Unsupervised Learning
+🔹 Clustering
+kmeans_clustering.ipynb
+
+hierarchical_clustering.ipynb
+
+dbscan.ipynb
+
+🔹 Dimensionality Reduction
+pca.ipynb
+
+t_sne.ipynb
+
+🔹 Anomaly Detection
+isolation_forest.ipynb
+
+one_class_svm.ipynb
+
 ---
 ## 📚 Topics Covered
 
