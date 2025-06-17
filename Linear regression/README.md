@@ -60,5 +60,5 @@ A machine learning project to predict house prices in Boston using Linear, Ridge
 
 ---
 
-## 🚀 Getting Started
+
 
