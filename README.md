@@ -24,6 +24,7 @@ machine-learning-training/
 │   │   ├── ridge_lasso_regression.ipynb
 │   │   └── decision_tree_regression.ipynb
 │   │
+
 │   ├── classification/
 │   │   ├── logistic_regression.ipynb
 │   │   ├── knn_classification.ipynb
@@ -35,13 +36,14 @@ machine-learning-training/
 │       ├── gradient_boosting.ipynb
 │       ├── xgboost.ipynb
 │       └── voting_bagging.ipynb
-│
+
 ├── unsupervised/
 │   ├── clustering/
 │   │   ├── kmeans_clustering.ipynb
 │   │   ├── hierarchical_clustering.ipynb
 │   │   └── dbscan.ipynb
 │   │
+
 │   ├── dimensionality_reduction/
 │   │   ├── pca.ipynb
 │   │   └── t_sne.ipynb
@@ -50,6 +52,7 @@ machine-learning-training/
 │       ├── isolation_forest.ipynb
 │       └── one_class_svm.ipynb
 │
+
 ├── data/
 │   └── (datasets used in notebooks)
 │
@@ -63,7 +66,7 @@ machine-learning-training/
 - **Classification:** Logistic Regression, KNN, SVM, Naive Bayes, Ensemble methods (Bagging, Boosting)
 
 ### 🔍 Unsupervised Learning
-- **Clustering:** K-Means, DBSCAN, Agglomerative Clustering
+- **Clustering:** K-Means, DBSCAN, hierarchical clustering, Agglomerative Clustering
 - **Dimensionality Reduction:** PCA, t-SNE
 - **Anomaly Detection:** Isolation Forest, One-Class SVM
 
