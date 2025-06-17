@@ -62,9 +62,3 @@ A machine learning project to predict house prices in Boston using Linear, Ridge
 
 ## 🚀 Getting Started
 
-### 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/boston-housing-regression.git
-cd boston-housing-regression
-pip install -r requirements.txt
