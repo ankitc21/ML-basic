@@ -19,35 +19,40 @@ Welcome to the repository for hands-on Machine Learning training! This repositor
 machine-learning-training/
 │
 ├── supervised/
-│ ├── regression/
-│ │ ├── linear_regression.ipynb
-│ │ ├── ridge_lasso_regression.ipynb
-│ │ └── decision_tree_regression.ipynb
-│ ├── classification/
-│ │ ├── logistic_regression.ipynb
-│ │ ├── knn_classification.ipynb
-│ │ ├── svm.ipynb
-│ │ ├── naive_bayes.ipynb
-│ │ └── random_forest_classification.ipynb
-│ └── ensemble/
-│ ├── gradient_boosting.ipynb
-│ ├── xgboost.ipynb
-│ └── voting_bagging.ipynb
+│   ├── regression/
+│   │   ├── linear_regression.ipynb
+│   │   ├── ridge_lasso_regression.ipynb
+│   │   └── decision_tree_regression.ipynb
+│   │
+│   ├── classification/
+│   │   ├── logistic_regression.ipynb
+│   │   ├── knn_classification.ipynb
+│   │   ├── svm.ipynb
+│   │   ├── naive_bayes.ipynb
+│   │   └── random_forest_classification.ipynb
+│   │
+│   └── ensemble/
+│       ├── gradient_boosting.ipynb
+│       ├── xgboost.ipynb
+│       └── voting_bagging.ipynb
 │
 ├── unsupervised/
-│ ├── clustering/
-│ │ ├── kmeans_clustering.ipynb
-│ │ ├── hierarchical_clustering.ipynb
-│ │ └── dbscan.ipynb
-│ ├── dimensionality_reduction/
-│ │ ├── pca.ipynb
-│ │ └── t_sne.ipynb
-│ └── anomaly_detection/
-│ ├── isolation_forest.ipynb
-│ └── one_class_svm.ipynb
+│   ├── clustering/
+│   │   ├── kmeans_clustering.ipynb
+│   │   ├── hierarchical_clustering.ipynb
+│   │   └── dbscan.ipynb
+│   │
+│   ├── dimensionality_reduction/
+│   │   ├── pca.ipynb
+│   │   └── t_sne.ipynb
+│   │
+│   └── anomaly_detection/
+│       ├── isolation_forest.ipynb
+│       └── one_class_svm.ipynb
 │
 ├── data/
-│ └── (datasets used in notebooks)
+│   └── (datasets used in notebooks)
+│
 ├── README.md
 └── requirements.txt
 
